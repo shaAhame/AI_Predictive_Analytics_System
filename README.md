@@ -10,3 +10,21 @@ A Streamlit app that predicts revenue, expense, and profit trends, and provides 
 ## Run the App
 ```bash
 streamlit run dashboard/app.py
+```
+```
+
+Remove all the conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`)
+
+**Step 2: Stage the file**
+```
+git add README.md
+```
+
+**Step 3: Commit the merge**
+```
+git commit -m "Resolve merge conflict - use company README"
+```
+
+**Step 4: Push to your personal repository**
+```
+git push origin main
